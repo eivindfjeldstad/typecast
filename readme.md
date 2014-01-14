@@ -1,5 +1,5 @@
 #typecast
-Easy typecasting in javascript.
+Simple typecasting in javascript.
 
 ##Example
 ```js
@@ -11,7 +11,7 @@ typecast('a, b, c', 'array') // => ['a', 'b', 'c']
 typecast('false', 'boolean') // => false
 ```
 
-##Api
+##API
 
 ###typecast(val, [type])
 Cast given `val` to `type`
