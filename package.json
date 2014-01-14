@@ -1,0 +1,13 @@
+{
+  "name": "typecast",
+  "version": "0.0.1",
+  "description": "Easy typecasting",
+  "devDependencies": {
+    "mocha": "~1.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eivindfjeldstad/typecast.git"
+  },
+  "license": "MIT"
+}
