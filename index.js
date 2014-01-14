@@ -33,7 +33,7 @@ typecast.string = function (val) {
  */
 
 typecast.number = function (val) {
-  var num = parseFloat(val, 10);
+  var num = parseFloat(val);
   return isNaN(num)
     ? null
     : num;
