@@ -13,19 +13,19 @@ typecast('false', 'boolean') // => false
 
 ##API
 
-###typecast(val, [type])
+###typecast(val, type)
 Cast given `val` to `type`
 
-###typecast#string(val)
+###.string(val)
 Cast `val` to `String`
 
-###typecast#number(val)
+###.number(val)
 Cast `val` to `Number`
 
-###typecast#array(val)
+###.array(val)
 Cast `val` to `Array`
 
-###typecast#boolean(val)
+###.boolean(val)
 Cast `val` to `Boolean`
 
 ##Licence
