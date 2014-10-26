@@ -76,6 +76,7 @@ describe('.boolean()', function () {
   it('should return a boolean', function () {
     assert(typecast.boolean('abc') === true);
     assert(typecast.boolean(0) === false);
+    assert(typecast.boolean('0') === false);
     assert(typecast.boolean('false') === false);
   })
 })

@@ -82,5 +82,5 @@ typecast.array = function (val) {
  */
 
 typecast.boolean = function (val) {
-  return !! val && val !== 'false';
+  return !! val && val !== 'false' && val !== '0';
 };
