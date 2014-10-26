@@ -22,6 +22,7 @@ function typecast (val, type) {
  */
 
 typecast.string = function (val) {
+  if (null == val) return '';
   return val.toString();
 };
 
@@ -35,7 +36,7 @@ typecast.string = function (val) {
 typecast.number = function (val) {
   var num = parseFloat(val);
   return isNaN(num)
-    ? null
+    ? 0
     : num;
 };
 
@@ -49,7 +50,7 @@ typecast.number = function (val) {
 typecast.date = function (val) {
   var date = new Date(val);
   return isNaN(date.valueOf())
-    ? null
+    ? new Date(0)
     : date;
 };
 
@@ -61,11 +62,15 @@ typecast.date = function (val) {
  */
 
 typecast.array = function (val) {
+  if (val == null) return [];
   if (val instanceof Array) return val;
-  var arr = val.toString().split(',');
+  if (typeof val != 'string') return [val];
+
+  var arr = val.split(',');
   for (var i = 0; i < arr.length; i++) {
     arr[i] = arr[i].trim();
   }
+
   return arr;
 };
 

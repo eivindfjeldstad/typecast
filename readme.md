@@ -25,6 +25,9 @@ Cast `val` to `Number`
 ###.array(val)
 Cast `val` to `Array`
 
+###.date(val)
+Cast `val` to `Date`
+
 ###.boolean(val)
 Cast `val` to `Boolean`
 
