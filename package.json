@@ -1,6 +1,6 @@
 {
   "name": "typecast",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple typecasting",
   "devDependencies": {
     "mocha": "~1.17.0"
