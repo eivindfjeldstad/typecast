@@ -1,7 +1,7 @@
-#typecast
+# typecast
 Simple typecasting in javascript.
 
-##Example
+## Example
 ```js
 var typecast = require('typecast');
 
@@ -11,25 +11,25 @@ typecast('a, b, c', 'array') // => ['a', 'b', 'c']
 typecast('false', 'boolean') // => false
 ```
 
-##API
+## API
 
-###typecast(val, type)
+### typecast(val, type)
 Cast given `val` to `type`
 
-###.string(val)
+### .string(val)
 Cast `val` to `String`
 
-###.number(val)
+### .number(val)
 Cast `val` to `Number`
 
-###.array(val)
+### .array(val)
 Cast `val` to `Array`
 
-###.date(val)
+### .date(val)
 Cast `val` to `Date`
 
-###.boolean(val)
+### .boolean(val)
 Cast `val` to `Boolean`
 
-##Licence
+## License
 MIT
