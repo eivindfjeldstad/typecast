@@ -2,6 +2,9 @@
   "name": "typecast",
   "version": "1.0.1",
   "description": "Simple typecasting",
+  "scripts": {
+    "test": "mocha --reporter spec --bail"
+  },
   "devDependencies": {
     "mocha": "~1.17.0"
   },
