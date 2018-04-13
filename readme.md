@@ -1,4 +1,6 @@
 # typecast
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/eivindfjeldstad/typecast.svg)](https://greenkeeper.io/)
 Simple typecasting in javascript.
 
 ## Example
