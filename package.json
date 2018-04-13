@@ -6,7 +6,7 @@
     "test": "mocha --reporter spec --bail"
   },
   "devDependencies": {
-    "mocha": "~1.17.0"
+    "mocha": "~5.1.0"
   },
   "repository": {
     "type": "git",
